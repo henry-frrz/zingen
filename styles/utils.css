@@ -62,3 +62,18 @@
 .btn--lg {
   padding: 1rem 2rem;
 }
+
+.orange-strong {
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(
+    90deg,
+    var(--primary-200) 0%,
+    var(--primary-100) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
