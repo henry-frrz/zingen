@@ -72,6 +72,11 @@ button {
   border: none;
 }
 
+strong {
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
 @media (min-width: 896px) {
   h1 {
     font-size: 4rem;
