@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   justify-items: center;
   background-color: var(--secondary-500);
+  overflow-x: hidden;
 }
 
 h1,
