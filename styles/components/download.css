@@ -1,0 +1,78 @@
+#download {
+  position: relative;
+  background-color: var(--secondary-400);
+  padding: 1.5rem;
+  padding-bottom: 15rem;
+  border-radius: 1.5rem;
+  margin: 3rem auto;
+}
+
+.download__title {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.download__app-store-buttons {
+  display: grid;
+  justify-items: flex-start;
+  gap: 0.875rem;
+  margin-top: 2rem;
+}
+
+.download__app-store-button {
+  height: 3rem;
+}
+
+.download__img {
+  position: absolute;
+  bottom: 0;
+  right: -3rem;
+  width: 15rem;
+}
+
+@media (min-width: 512px) {
+  #download {
+    padding: 3rem;
+    margin: 5rem auto;
+  }
+
+  .download__content {
+    max-width: calc(100% - 10rem);
+  }
+
+  .download__app-store-buttons {
+    display: flex;
+  }
+}
+
+@media (min-width: 896px) {
+  #download {
+    padding: 5rem;
+  }
+
+  .download__content {
+    max-width: calc(100% - 15rem);
+  }
+
+  .download__app-store-buttons {
+    margin-top: 3rem;
+  }
+
+  .download__img {
+    width: 24rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #download {
+    padding: 8rem 5rem;
+  }
+
+  .download__content {
+    max-width: calc(100% - 20rem);
+  }
+
+  .download__img {
+    width: 30rem;
+  }
+}
