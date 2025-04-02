@@ -12,6 +12,7 @@
   background-color: var(--secondary-100);
   color: var(--secondary-500);
   text-align: center;
+  font-weight: 500;
 
   &:hover {
     background: linear-gradient(
@@ -40,6 +41,7 @@
 
   span {
     z-index: 1;
+    font-weight: 500;
   }
 }
 
